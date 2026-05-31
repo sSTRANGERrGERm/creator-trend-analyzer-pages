@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creator Trend Analyzer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #05070b;
+      --panel: #101720;
+      --text: #f5f8fc;
+      --muted: #93a0b3;
+      --line: #233044;
+      --cyan: #27f4ee;
+      --pink: #ff2f74;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      background:
+        linear-gradient(135deg, rgba(39, 244, 238, .1), transparent 34%),
+        linear-gradient(315deg, rgba(255, 47, 116, .12), transparent 34%),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, Segoe UI, system-ui, sans-serif;
+    }
+    main {
+      width: min(760px, 100%);
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(16, 23, 32, .88);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, .35);
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(32px, 6vw, 56px); line-height: 1; }
+    p { color: var(--muted); line-height: 1.65; }
+    a { color: var(--cyan); font-weight: 700; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .links a {
+      display: inline-flex;
+      min-height: 42px;
+      align-items: center;
+      padding: 0 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      text-decoration: none;
+      background: rgba(255, 255, 255, .04);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Creator Trend Analyzer</h1>
+    <p>
+      Creator Trend Analyzer is a local analytics tool for creators. It helps users connect
+      their own TikTok account, review public video metrics, and identify content improvement
+      opportunities from trends, captions, duration, and engagement signals.
+    </p>
+    <div class="links">
+      <a href="./terms.html">Terms of Service</a>
+      <a href="./privacy.html">Privacy Policy</a>
+    </div>
+  </main>
+</body>
+</html>
